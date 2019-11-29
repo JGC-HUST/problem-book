@@ -4,11 +4,12 @@
       <el-col>
         <el-menu
           class="el-menu-vertical-demo"
+          router
           @open="handleOpen"
           @close="handleClose"
           @select="handleOpen"
         >
-          <el-menu-item index="1">
+          <el-menu-item index="/list">
             <span slot="title">常识</span>
           </el-menu-item>
 

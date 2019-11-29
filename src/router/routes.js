@@ -7,6 +7,11 @@ export default [
         component: Home
     },
     {
+        path: '/list',
+        name: 'list',
+        component: () => import( '@/views/List.vue' )
+    },
+    {
         path: '/about',
         name: 'about',
         // route level code-splitting
